@@ -9,7 +9,7 @@ public class LaunchBrowser {
 	public static void main(String[] args) {
 		
 		System.setProperty("webdriver.gecko.driver","C:\\SeleniumDriver\\geckodriver.exe");
-		
+		System.out.println("second commit for git and github");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		
